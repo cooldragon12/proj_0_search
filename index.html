@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css" >
+        
+    </head>
+    <body >
+        
+        <div id="background-main">
+            <div class = "main">
+                <!-- Search Normal Search/Form -->
+                <form id="search onormal" action="https://google.com/search" method="get" autocomplete="off" role="search" name="f">
+                    <div class='otherlinkb'>
+                        <a href="#search oimage">Image</a>
+                        <a href="#search oadvance">Advance</a> 
+                    </div>
+                    
+                    <div class="upper"><image src='/Assets/Google.png' class="google-text" alt='googel-text'></image></div>
+                    
+                    <div class = "search-section">
+                        <div class='guide'>
+                            <div class="container">
+                                <img src="/Assets/loupe.svg" class="magni" alt="Magnifying Glass">
+                                <input class="search-bar normal"type="text" name="q">
+                                <img src="/Assets/microphone.svg" class="mic" alt="mic"> 
+                            </div>
+                        </div>
+                        
+                        <div class='buttons1'>
+                            <input class="search-button normalb"type="submit" name="btnG" value="Google Search" >
+                            <input class="search-button normalb"type="submit" name="btnI" value="I'm Feeling Lucky" formaction="https://google.com/search?q=&btnI=1">
+                        </div>
+                    </div>
+                    
+                </form>
+            <!-- Image Search Section/Form -->
+                <form id="search oimage" action="http://images.google.com/images" method="get" name="f" autocomplete="off" role="search" >
+                    <div class='otherlinkb'>
+                        <a href="#search onormal">Main</a>
+                        <a href="#search oadvance">Advance</a> 
+                    </div>
+                    
+                    <div class = 'upper'>
+                        <img src="/Assets/Googleimage.png" class="googlesvg" alt="PicFrame">
+                        <img src="/Assets/@Kyleen Ysabelle.svg" class="picframe2" alt="PicFtame2">
+                        <img src="/Assets/MYb81JIp.svg" class="workK" alt="Place">
+            
+                    </div>
+                    <div class="search-section">
+                        <div class='guide'>
+                            <div class='container'>
+                                <img src="/Assets/loupe.svg" class="magni" alt="Magnifying Glass">
+                                <input class="search-bar image"type="text" name="q" role="combobox" >
+                                <span class="cam"> </span>
+                                <span class="mic"></span>
+                                <a class="buttonmag" type="submit" value="Search Images"></a>
+                                
+                            </div>
+                        </div>
+                        <div class='buttons1'>
+                            <input class="search-button imageb"type="submit" value="Search Images" >
+                        </div>
+                    </div>
+                </form>
+           <!-- Advance Search----- -->
+                <form id="search oadvance" action="https://google.com/search"" method="get" autocomplete="off" >
+                    <div class='otherlinkb'>
+                        <a href="#search onormal">Main</a>
+                        <a href="#search oimage">Image</a>
+                     </div>
+                    
+                    <div class='upperad'>
+                        <image src='/Assets/Google.png' id='head' alt='googel-text'>
+                    </div>
+                    <div class="secondupper"><h2 id='head2'>Advance Search</h2></div>
+                    <div class='search-sectionad'>
+                        <h2>Find pages with ...</h2>
+                        <div class='guidead'>
+                            <div class="line1">
+                                <p class='st'>all these words:</p>
+                                <div class='containerad'>    
+                                    <input class="search-bar advance" type="text" name="as_q" >
+                                </div>
+                                <p class='sts'>Type the important words: tri-colour rat terrier</p>
+                            </div>
+                            <div class="line1">
+                                <p class='st'>this exact word or phrase:</p>
+                                <div class='containerad'>
+                                    <input class="search-bar advance" type="text" name="as_epq" >
+                                </div>
+                                <p class='sts'>Put exact words in quotes: "rat terrier"</p>
+                            </div>
+                            
+                            <div class="line1">
+                                <p class='st'>any of these words:</p>
+                                <div class='containerad'>
+                                    <input class="search-bar advance" type="text" name="as_oq" >
+                                </div>
+                                <p class='sts'>Type OR between all the words you want: miniature OR standard</p>
+                            </div>
+                            
+                            <div class="line1">
+                                <p class='st'>none of these words:</p>
+                                <div class='containerad'>
+                                    <input class="search-bar advance" type="text" name="as_eq" >
+                                </div>
+                                <p class='sts'>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                            </div>
+                            
+                        <div class='buttons1'>
+                            <input class="search-button advanceb"type="submit" value="Advance Search">
+                        </div>
+                    </div>
+                    
+                    
+                </form>
+                <!-- <script src="scroll-mate.js"></script> -->
+            </div>
+        </div>
+    </body>
+</html>
